@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bilal Benyoussef">
+    <meta name="description" content="a basic timer">
+    <meta name="keywords" content="timer">
+    <title>Timer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+
+    <div class="contanier">
+        <p class="timer">Timer</p>
+        <div class="time">
+
+            <div>
+                <i class="fa-solid fa-chevron-up fa-xl" id="hUp"></i>
+                <input type="text" id="hours" readonly aria-label="hours" value="00">
+                <i class="fa-solid fa-chevron-down fa-xl" id="hDown"></i>
+                <p>H</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-chevron-up fa-xl" id="mUp"></i>
+                <input type="text" id="minutes" readonly aria-label="minutes" value="00">
+                <i class="fa-solid fa-chevron-down fa-xl" id="mDown"></i>
+                <p>min</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-chevron-up fa-xl" id="sUp"></i>
+                <input type="text" id="seconds" readonly aria-label="seconds" value="00">
+                <i class="fa-solid fa-chevron-down fa-xl" id="sDown"></i>
+                <p>S</p>
+            </div>
+        </div>
+        <div class="btns">
+            <i class="fa-sharp fa-solid fa-rotate-left fa-xl" id="reset"></i>
+            <i class="fa-solid fa-circle-play fa-xl" id="playPause"></i>
+        </div>
+        <audio>
+            <source src="effects/Timer Sound Effect.mp3">
+            Your browser doesn't support the audio element.
+        </audio>
+    </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+.time {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.time div p:first-child {
+    font-size: 1.5em;
+}
+
+.contanier {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    height: 97vh;
+    background-color: #164B60;
+    color: white;
+}
+
+.contanier div p:last-child {
+    font-size: 1.2em;
+    text-shadow: 1px 1px 1px black;
+
+}
+
+.btns {
+    margin: 60px auto;
+    text-align: center;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+i {
+    color: white;
+    cursor: pointer;
+    text-shadow: 1px 1px 3px black;
+}
+
+
+.timer {
+    font-size: 1.3em;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 1px black;
+}
+
+input {
+    width: 40px;
+    display: block;
+    margin: 15px 0;
+    background-color: #164B60;
+    color: white;
+    text-align: center;
+    border: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-shadow: 1px 1px 1px black;
+}
+
+input:hover {
+    outline: none;
+    border: none;
+}
+
+audio {
+  display: none;
+}
